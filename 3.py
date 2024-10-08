@@ -5,9 +5,11 @@ with open("liczby.txt", "r") as file:
     second_row = lines[1].split()
 
     count = 0
-    for num in first_row:
-        for second_num in second_row:
-            if int(num) % int(second_num) == 0:
+    for line in first_row:
+        for num in second_row:
+            if int(num) % int(line) == 0:
                 count += 1
                 break
     print(f"Ilość liczb dzielących się z {len(first_row)} liczb spośród {len(second_row)} liczb z drugiego wiersza: {count}")
+    with open("wyniki4.txt", "w") as w:
+        w.write(str(count))
