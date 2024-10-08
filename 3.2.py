@@ -5,4 +5,4 @@ with open("liczby.txt", "r") as file:
     for line in first_row.split():
         li.append(int(line.strip()))
     li.sort(reverse=True)
-    print(li)
+    print(li[110])
