@@ -1,6 +1,7 @@
-# Rozkład na dzielniki pierwsze
+# Rozkład na czynniki pierwsze
 
 ## Opis funkcji
+
 Ten skrypt służy do rozkładu liczby całkowitej na czynniki pierwsze. Wprowadź dowolną liczbę całkowitą, a program zwróci listę jej dzielników pierwszych.
 
 ## Jak działa skrypt?
