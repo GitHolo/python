@@ -26,16 +26,22 @@ Wynik działania skryptu:
 ## Kod
 ```python
 def nwd(a,b):
+    # sprawdź czy obydwie liczby są dodatnie
     if a>0 and b>0:
+        # podczas gdy (a) nie jest równe (b)
         while a != b:
+            # jeśli (a) jest większe od (b), odejmij (b) od (a)
             if a > b:
                 a -= b
+            # inaczej, odejmij (a) od (b)
             else:
                 b -= a
+        # zwróć wartość
         return a
+    # jeśli liczby nie są dodatnie, zwróć błąd
     else:
         return "błąd"
-
+# zdobądź i zwróć dane
 a = int(input("podaj liczbę a: "))
 b = int(input("podaj liczbę b: "))
 print(str(nwd(a,b)))
