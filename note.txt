@@ -1,0 +1,11 @@
+1. sortowanie liczb
+2. generator liczb pierwszych
+3. czynniki pierwsze
+4. ciągi
+5. najkrótszej ścieżki
+6. liczby doskonałe i szczęśliwe
+7. NWD
+8. NWW
+9. znajdowanie palindromów
+10. problem plecakowy
+11. symulacja kolejki priorytetowej
