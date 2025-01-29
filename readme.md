@@ -4,9 +4,6 @@ Ten projekt zawiera różne algorytmy stworzone w ramach zajęć z informatyki. 
 
 ## Foldery:
 
-- [2024-maj](./2024-maj)  
-  Zawiera pliki związane z projektem informatycznym na rok 2024.
-
 - [array fill](./array%20fill)  
   Zawiera algorytmy do wypełniania tablic określonymi wartościami.
 
