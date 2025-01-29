@@ -11,7 +11,7 @@ Ten projekt zawiera zbiór algorytmów stworzonych w ramach zajęć z informatyk
   - [binToDec](./binary/binToDec) - Konwersja liczby binarnej na dziesiętną.
   - [decToBin](./binary/decToBin) - Konwersja liczby dziesiętnej na binarną.
   - [isBinary](./binary/isBinary) - Sprawdzanie, czy liczba jest binarna.
-  - [substr](./binary/substr) - Odejmowanie liczb binarnych.
+  - [subtract](./binary/subtract) - Odejmowanie liczb binarnych.
 - [fibonacci](./fibonacci) - Obliczanie liczb w ciągu Fibonacciego.
 - [lucky](./lucky) - Algorytm szczęśliwych liczb.
 - [median](./median) - Znajdowanie mediany w zbiorze danych.
