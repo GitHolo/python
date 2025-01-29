@@ -1,4 +1,4 @@
-# Struktura Folderów Projektu - Algorytmy Informatyczne
+# Algorytmy Informatyczne
 
 Ten projekt zawiera zbiór algorytmów stworzonych w ramach zajęć z informatyki. Każdy folder reprezentuje inny rodzaj problemu algorytmicznego, od podstawowych operacji matematycznych po bardziej zaawansowane sortowania i przekształcenia. Poniżej znajdziesz szczegóły każdego folderu:
 
