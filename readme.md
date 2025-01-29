@@ -1,42 +1,42 @@
-# Project Folder Structure
+# Struktura Folderów Projektu - Algorytmy Informatyczne
 
-This project contains a variety of algorithms and operations organized into different folders. Below is a list of the folders with clickable links to their contents:
+Ten projekt zawiera różne algorytmy stworzone w ramach zajęć z informatyki. Foldery są zorganizowane według rodzaju algorytmu lub operacji. Poniżej znajduje się lista folderów z klikanymi linkami do ich zawartości:
 
-## Folders:
+## Foldery:
 
 - [2024-maj](./2024-maj)  
-  Contains files related to the 2024 major project.
+  Zawiera pliki związane z projektem informatycznym na rok 2024.
 
 - [array fill](./array%20fill)  
-  Contains algorithms or scripts that focus on filling arrays with specific values.
+  Zawiera algorytmy do wypełniania tablic określonymi wartościami.
 
 - [median](./median)  
-  Contains code for calculating the median of a set of numbers.
+  Zawiera algorytm do obliczania mediany zbioru liczb.
 
 - [NWD](./NWD)  
-  Contains implementations for calculating the greatest common divisor (GCD) using different methods.
+  Zawiera implementacje algorytmu obliczania największego wspólnego dzielnika (NWD) za pomocą różnych metod.
   - [euclidean](./NWD/euclidean)  
-    Euclidean algorithm for GCD calculation.
+    Algorytm Euklidesa do obliczania NWD.
   - [positive only](./NWD/positive%20only)  
-    GCD calculation considering only positive numbers.
+    Obliczanie NWD tylko dla liczb dodatnich.
 
 - [prime factors](./prime%20factors)  
-  Contains code to determine the prime factors of a number.
+  Zawiera kod do wyznaczania czynników pierwszych liczby.
 
 - [sort](./sort)  
-  Contains various sorting algorithms:
+  Zawiera różne algorytmy sortowania:
   - [bubble](./sort/bubble)  
-    Implementation of the bubble sort algorithm.
+    Implementacja algorytmu sortowania bąbelkowego.
   - [bucket](./sort/bucket)  
-    Implementation of the bucket sort algorithm.
+    Implementacja algorytmu sortowania kubełkowego.
   - [insertion](./sort/insertion)  
-    Implementation of the insertion sort algorithm.
+    Implementacja algorytmu sortowania przez wstawianie.
   - [quick](./sort/quick)  
-    Implementation of the quicksort algorithm.
+    Implementacja algorytmu quicksort.
 
 - [swap](./swap)  
-  Contains code for swapping elements in an array or list.
+  Zawiera kod do zamiany elementów w tablicy lub liście.
 
 ---
 
-Each folder contains specific implementations, designed to be modular for easy use or integration into other projects. Feel free to explore the contents of each folder for further details.
+Każdy folder zawiera implementacje algorytmów stworzonych na potrzeby zajęć z informatyki. Algorytmy te mogą być używane jako przykład w nauce programowania, sortowania, obliczania NWD, czy też innych operacji algorytmicznych. Zachęcam do eksploracji zawartości każdego folderu, aby poznać szczegóły implementacji.
