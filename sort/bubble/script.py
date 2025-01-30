@@ -11,12 +11,11 @@ def bubble(arr: list):
             if arr[j] > arr[j+1]:
                 arr[j], arr[j+1] = arr[j+1], arr[j]
                 swapped = True
-        print(n-i-1)
+
         if (swapped == False):
             break
 
     return arr
-arr = []
 
 def arrFill(arr: list):
 
@@ -30,6 +29,7 @@ def arrFill(arr: list):
 
     return arr
 
+arr = []
 
 print(arrFill(arr))
 print(bubble(arr))
