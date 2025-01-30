@@ -1,6 +1,6 @@
 # Algorytmy Informatyczne
 
-Ten projekt zawiera zbiór algorytmów stworzonych w ramach zajęć z informatyki. Każdy folder reprezentuje inny rodzaj problemu algorytmicznego, od podstawowych operacji matematycznych po bardziej zaawansowane sortowania i przekształcenia. Poniżej znajdziesz szczegóły każdego folderu:
+Ten projekt zawiera zbiór algorytmów stworzonych w ramach różnych problemów algorytmicznych, obejmujących zarówno podstawowe operacje matematyczne, jak i bardziej zaawansowane algorytmy. Celem repozytorium jest dostarczenie przykładów implementacji algorytmów w językach programowania Python i Ruby, umożliwiających naukę i eksperymentowanie.
 
 ## Foldery:
 
@@ -29,4 +29,10 @@ Ten projekt zawiera zbiór algorytmów stworzonych w ramach zajęć z informatyk
   - [quick](./sort/quick) - Sortowanie szybkie.
 - [swap](./swap) - Proste zamienianie wartości miejscami.
 
-Każdy folder zawiera implementacje w postaci skryptów, które mogą być wykorzystywane jako inspiracja do nauki programowania. Zachęcam do eksploracji i eksperymentowania z tymi algorytmami.
+---
+
+Każdy folder zawiera implementacje algorytmów w postaci skryptów w Pythonie i Ruby, które mogą być wykorzystywane jako inspiracja do nauki programowania. Zachęcam do eksploracji i eksperymentowania z tymi algorytmami.
+
+## Autor
+
+Projekt stworzony przez Maksymiliana Felczaka, który odpowiada za implementację wszystkich algorytmów zawartych w tym repozytorium. Kod napisany w ramach nauki algorytmów.
