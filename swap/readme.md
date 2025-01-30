@@ -24,6 +24,8 @@ Wynik działania skryptu:
 ```
 
 ## Kod
+
+### Python
 ```python
 def swap(a, b):
     a, b = b, a
@@ -35,4 +37,20 @@ a = input('a: ')
 b = input('b: ')
 
 print(swap(a, b))
+```
+### Ruby
+```ruby
+def swap(a, b)
+  a, b = b, a
+  a = "a is #{a}"
+  b = "b is #{b}"
+  return a,b
+end
+
+print "a: "
+a = gets.chomp
+print "b: "
+b = gets.chomp
+
+print swap(a, b)
 ```
