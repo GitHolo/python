@@ -12,7 +12,7 @@ Funkcja `lucky` generuje liczby szczęśliwe w przedziale od 1 do `limit`. Liczb
 ## Przykład użycia
 Po uruchomieniu skryptu użytkownik może obliczyć liczby szczęśliwe dla określonego limitu:
 ```
-lucky(20)  # [1, 3, 5, 7, 11, <span style="color:red;">13</span>, 17]
+lucky(20)  # [1, 3, 5, 7, 11, 13, 17]
 ```
 
 ## Kod
