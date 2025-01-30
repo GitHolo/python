@@ -17,7 +17,7 @@ subtractBinary(101, 110)    # Wynik: "Nie można odjąć, wynik byłby ujemny."
 
 ## Kod
 
-### Python
+### [Python](./script.py)
 ```python
 def subtractBinary(a, b):
     # Sprawdzamy, czy oba argumenty są zapisane w systemie binarnym.
@@ -57,7 +57,7 @@ def subtractBinary(a, b):
         return result if result else '0'
 ```
 
-### Ruby
+### [Ruby](./script.rb)
 ```ruby
 def subtractBin(a, b)
   # Sprawdzamy, czy oba argumenty są zapisane w systemie binarnym.

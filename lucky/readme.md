@@ -12,12 +12,12 @@ Funkcja `lucky` generuje liczby szczęśliwe w przedziale od 1 do `limit`. Liczb
 ## Przykład użycia
 Po uruchomieniu skryptu użytkownik może obliczyć liczby szczęśliwe dla określonego limitu:
 ```
-lucky(10)  # [1, 3, 7]
+lucky(20)  # [1, 3, 5, 7, 11, <span style="color:red;">13</span>, 17]
 ```
 
 ## Kod
 
-### Python
+### [Python](./script.py)
 ```python
 def lucky(limit):
     arr = list(range(1, limit + 1))  # Tworzymy listę liczb od 1 do limitu
@@ -31,7 +31,7 @@ def lucky(limit):
     return arr  # Zwracamy listę liczb szczęśliwych
 ```
 
-### Ruby
+### [Ruby](./script.rb)
 ```ruby
 def lucky(limit)
   arr = (1..limit).to_a  # Tworzymy listę liczb od 1 do limitu

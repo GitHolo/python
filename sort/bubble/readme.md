@@ -22,7 +22,7 @@ Wynik działania skryptu:
 
 ## Kod
 
-### Python
+### [Python](./script.py)
 ```python
 def bubble(arr: list):
     n = len(arr)  # Ustala długość tablicy
@@ -41,7 +41,7 @@ def bubble(arr: list):
     return arr  # Zwraca posortowaną tablicę
 ```
 
-### Ruby
+### [Ruby](./script.rb)
 ```ruby
 def bubbleSort(arr)
   n = arr.length  # Ustala długość tablicy

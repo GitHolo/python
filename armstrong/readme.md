@@ -37,7 +37,7 @@ def armstrong(num: int):
     return False
 ```
 
-### Ruby
+### [Ruby](./script.rb)
 ```ruby
 def armstrong(num)
   # Inicjalizacja zmiennej 'factor', która będzie odpowiadać za potęgę, do której podnosimy cyfry.

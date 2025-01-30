@@ -18,7 +18,7 @@ divisor(60)  # [2, 2, 3, 5]
 
 ## Kod
 
-### Python
+### [Python](./script.py)
 ```python
 import math
 
@@ -36,7 +36,7 @@ def divisor(a):
     return result  # Zwraca listę dzielników
 ```
 
-### Ruby
+### [Ruby](./script.rb)
 ```ruby
 def divisor(a)
   result = []  # Lista przechowująca dzielniki

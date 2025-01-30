@@ -31,7 +31,7 @@ def arrFill(arr: list):
     return arr
 ```
 
-### Ruby
+### [Ruby](./script.rb)
 ```ruby
 def arrFill(arr)
   # Wyświetlamy prośbę o podanie liczby elementów w tabeli.

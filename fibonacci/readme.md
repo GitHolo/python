@@ -17,7 +17,7 @@ fibonacci(6)  # [0, 1, 1, 2, 3, 5]
 
 ## Kod
 
-### Python
+### [Python](./script.py)
 ```python
 def fibonacci(max: int):
     result = [0]  # Rozpoczynamy od liczby 0
@@ -32,7 +32,7 @@ def fibonacci(max: int):
     return result  # Zwracamy wygenerowany ciąg
 ```
 
-### Ruby
+### [Ruby](./script.rb)
 ```ruby
 def fibonacci(max)
   result = [0]  # Rozpoczynamy od liczby 0

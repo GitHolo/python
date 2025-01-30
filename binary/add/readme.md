@@ -17,7 +17,7 @@ addBinary(1010, 1100)  # Wynik: 10110
 
 ## Kod
 
-### Python
+### [Python](./script.py)
 ```python
 def addBinary(a, b):
     # Sprawdzamy, czy obie liczby są w formacie binarnym.
@@ -43,7 +43,7 @@ def addBinary(a, b):
         return result
 ```
 
-### Ruby
+### [Ruby](./script.rb)
 ```ruby
 def addBinary(a,b)
   # Sprawdzamy, czy obie liczby są w formacie binarnym.

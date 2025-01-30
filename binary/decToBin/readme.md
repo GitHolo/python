@@ -16,7 +16,7 @@ decToBin(0)   # Wynik: '0'
 
 ## Kod
 
-### Python
+### [Python](./script.py)
 ```python
 def binToDec(bin: float):
     # Sprawdzamy, czy liczba jest zapisana w systemie binarnym.
@@ -40,7 +40,7 @@ def binToDec(bin: float):
         return result
 ```
 
-### Ruby
+### [Ruby](./script.rb)
 ```ruby
 def binToDec(bin)
   # Sprawdzamy, czy liczba jest zapisana w systemie binarnym.

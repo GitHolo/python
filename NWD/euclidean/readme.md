@@ -17,7 +17,7 @@ euclideanNWD(56, 98)  # 14
 
 ## Kod
 
-### Python
+### [Python](./script.py)
 ```python
 def euclideanNWD(a, b):
     while b != 0:  # Dopóki b nie jest zerem
@@ -26,7 +26,7 @@ def euclideanNWD(a, b):
     return a  # Zwrócenie największego wspólnego dzielnika
 ```
 
-### Ruby
+### [Ruby](./script.rb)
 ```ruby
 def euclideanNWD(a, b)
   while b != 0  # Dopóki b nie jest zerem

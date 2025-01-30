@@ -18,7 +18,7 @@ isBinary(12345)  # False
 
 ## Kod
 
-### Python
+### [Python](./script.py)
 ```python
 def isBinary(n: int):
     for i in str(n):  # Iterujemy przez każdy znak liczby
@@ -27,7 +27,7 @@ def isBinary(n: int):
     return True  # Jeśli wszystkie znaki są '0' lub '1', zwracamy True
 ```
 
-### Ruby
+### [Ruby](./script.rb)
 ```ruby
 def isBinary(n)
   n.to_s.each_char do |i|  # Iterujemy przez każdy znak liczby

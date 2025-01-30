@@ -23,7 +23,7 @@ Wynik działania skryptu:
 
 ## Kod
 
-### Python
+### [Python](./script.py)
 ```python
 def quickSort(arr: list, low=0, high=None):
     if high is None:
@@ -49,7 +49,7 @@ def partition(arr: list, low, high):
     return i+1  # Zwraca indeks pivota
 ```
 
-### Ruby
+### [Ruby](./script.rb)
 ```ruby
 def quickSort(arr, low = 0, high = nil)
   if high == nil

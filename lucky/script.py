@@ -12,4 +12,4 @@ def lucky(limit):
 
     return arr
 
-print(lucky(1500))
+print(lucky(20))

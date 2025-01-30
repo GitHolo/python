@@ -30,7 +30,7 @@ Wynik działania skryptu:
 - Algorytm ten działa poprawnie dla dodatnich liczb całkowitych.
 
 
-### Python
+### [Python](./script.py)
 ```python
 def nwd(a, b):
     if a > 0 and b > 0:  # Sprawdzanie, czy liczby są większe od zera
@@ -44,7 +44,7 @@ def nwd(a, b):
         return "błąd"  # Zwrócenie komunikatu o błędzie, jeśli liczby są <= 0
 ```
 
-### Ruby
+### [Ruby](./script.rb)
 ```ruby
 def nwd(a, b)
   if a > 0 && b > 0  # Sprawdzanie, czy liczby są większe od zera

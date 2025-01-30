@@ -17,7 +17,7 @@ isPrime(10) # False
 
 ## Kod
 
-### Python
+### [Python](./script.py)
 ```python
 def isPrime(n):
     for i in range(2, int(n**0.5) + 1):  # Iteruje przez liczby od 2 do pierwiastka kwadratowego z n
@@ -26,7 +26,7 @@ def isPrime(n):
     return True  # Jeśli nie znaleziono dzielnika, n jest liczbą pierwszą
 ```
 
-### Ruby
+### [Ruby](./script.rb)
 ```ruby
 def isPrime(n)
   (2...(n**0.5)+1).each do |i|  # Iteruje przez liczby od 2 do pierwiastka kwadratowego z n

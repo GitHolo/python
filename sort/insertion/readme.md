@@ -22,7 +22,7 @@ Wynik działania skryptu:
 
 ## Kod
 
-### Python
+### [Python](./script.py)
 ```python
 def insertSort(arr: list):
     for i in range(1, len(arr)):  # Iteruje po tablicy zaczynając od drugiego elementu
@@ -40,7 +40,7 @@ def insertSort(arr: list):
     return arr  # Zwraca posortowaną tablicę
 ```
 
-### Ruby
+### [Ruby](./script.rb)
 ```ruby
 def insertSort(arr)
   for i in 1...(arr.length)  # Iteruje po tablicy zaczynając od drugiego elementu

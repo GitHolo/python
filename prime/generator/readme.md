@@ -18,7 +18,7 @@ primeGen(5)  # [2, 3, 5, 7, 11]
 
 ## Kod
 
-### Python
+### [Python](./script.py)
 ```python
 def primeGen(max):
     primes = []  # Lista przechowująca liczby pierwsze
@@ -33,7 +33,7 @@ def primeGen(max):
     return primes  # Zwraca listę liczb pierwszych
 ```
 
-### Ruby
+### [Ruby](./script.rb)
 ```ruby
 def primeGen(max)
   primes = []  # Lista przechowująca liczby pierwsze

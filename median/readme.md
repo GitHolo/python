@@ -18,7 +18,7 @@ median([3, 1, 2, 4])  # 2.5
 
 ## Kod
 
-### Python
+### [Python](./script.py)
 ```python
 def median(arr: list):
     n = int(len(arr))  # Długość listy
@@ -30,7 +30,7 @@ def median(arr: list):
         return arr[int((n + 1) / 2)]  # Środkowy element
 ```
 
-### Ruby
+### [Ruby](./script.rb)
 ```ruby
 def median(arr)
   n = arr.length  # Długość listy

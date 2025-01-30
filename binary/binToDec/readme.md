@@ -16,7 +16,7 @@ binToDec(0)     # Wynik: 0
 
 ## Kod
 
-### Python
+### [Python](./script.py)
 ```python
 def binToDec(bin: float):
     if isBinary(bin):
@@ -31,7 +31,7 @@ def binToDec(bin: float):
         return result
 ```
 
-### Ruby
+### [Ruby](./script.rb)
 ```ruby
 def binToDec(bin)
   return "błąd" unless isBinary(bin)

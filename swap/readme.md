@@ -25,7 +25,7 @@ Wynik działania skryptu:
 
 ## Kod
 
-### Python
+### [Python](./script.py)
 ```python
 def swap(a, b):
     a, b = b, a  # Zamienia miejscami wartości a i b
@@ -39,7 +39,7 @@ b = input('b: ')  # Pobiera dane wejściowe od użytkownika dla 'b'
 print(swap(a, b))  # Drukuje zamienione wartości z etykietami
 ```
 
-### Ruby
+### [Ruby](./script.rb)
 ```ruby
 def swap(a, b)
   a, b = b, a  # Zamienia miejscami wartości a i b

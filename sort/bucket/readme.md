@@ -22,7 +22,7 @@ Wynik działania skryptu:
 
 ## Kod
 
-### Python
+### [Python](./script.py)
 ```python
 def bucketSort(arr: list):
     n = len(arr)  # Ustala długość tablicy
@@ -42,7 +42,7 @@ def bucketSort(arr: list):
             index += 1
 ```
 
-### Ruby
+### [Ruby](./script.rb)
 ```ruby
 def bucketSort(arr)
   n = arr.length  # Ustala długość tablicy
