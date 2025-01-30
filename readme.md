@@ -36,3 +36,7 @@ Każdy folder zawiera implementacje algorytmów w postaci skryptów w Pythonie i
 ## Autor
 
 Projekt stworzony przez Maksymiliana Felczaka, który odpowiada za implementację wszystkich algorytmów zawartych w tym repozytorium. Kod napisany w ramach nauki algorytmów.
+
+## Źródła
+
+- [http://learnxinyminutes.com/](http://learnxinyminutes.com/)
