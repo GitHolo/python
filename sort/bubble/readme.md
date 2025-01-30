@@ -76,14 +76,12 @@ end
    - W Pythonie flaga `swapped` jest inicjowana jako `False`, a po każdej zamianie ustawiana na `True`. Jeśli po jednej pełnej iteracji nie zostaną dokonane żadne zamiany, pętla główna zostaje zakończona.
    - W Ruby działa to w identyczny sposób, jednak składnia Ruby umożliwia zastosowanie konstrukcji `break` do przerwania pętli, co jest bardziej naturalne w tym języku.
 
-4. **Zamiana elementów:**
-   - W Pythonie zamiana elementów odbywa się za pomocą składni `arr[j], arr[j+1] = arr[j+1], arr[j]`.
-   - W Ruby działa to w ten sam sposób, ale z użyciem `arr[j], arr[j+1] = arr[j+1], arr[j]`, co jest bezpośrednią analogią.
 
-5. **Zwracanie wartości:**
-   - W Pythonie funkcja zwraca posortowaną tablicę `arr`.
-   - W Ruby również zwracamy posortowaną tablicę, używając `return arr`.
-
-6. **Składnia nawiasów:**
+4. **Składnia nawiasów:**
    - W Pythonie nawiasy są wymagane dla funkcji i metod, takich jak `range(n)` i `arr[j]`.
    - W Ruby nawiasy są opcjonalne przy metodach, takich jak `arr.length` i `arr[j]`.
+
+## Jak uruchomić?
+1. Uruchom plik Python.
+2. Wprowadź liczbę całkowitą w odpowiedzi na pytanie.
+2. Otrzymasz wynik w konsoli.

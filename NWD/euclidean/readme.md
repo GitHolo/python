@@ -1,42 +1,44 @@
-# NWD (Największy Wspólny Dzielnik) - Algorytm Euklidesa
+# Funkcja Największy Wspólny Dzielnik (NWD) - Algorytm Euklidesa
 
 ## Opis
-Ten skrypt oblicza największy wspólny dzielnik (NWD) dwóch liczb całkowitych przy użyciu algorytmu Euklidesa opartego na operacji modulo.
+Funkcja `euclideanNWD` oblicza największy wspólny dzielnik dwóch liczb `a` i `b` za pomocą algorytmu Euklidesa. Algorytm polega na tym, że w każdym kroku zastępujemy większą liczbę resztą z dzielenia większej liczby przez mniejszą, aż jedna z liczb stanie się zerem. Wtedy druga liczba jest największym wspólnym dzielnikiem.
 
 ## Jak działa
-1. Użytkownik wprowadza dwie liczby całkowite: `a` i `b`.
-2. Algorytm iteracyjnie oblicza resztę z dzielenia `a` przez `b` i przypisuje:
-   - `b` do `a`,
-   - resztę do `b`.
-3. Proces powtarza się, aż `b` osiągnie wartość `0`.
-4. Ostateczna wartość `a` jest największym wspólnym dzielnikiem.
-5. Wynik zostaje wyświetlony na ekranie.
+1. Funkcja przyjmuje dwie liczby `a` i `b` jako argumenty.
+2. Dopóki `b` nie jest równe zeru, funkcja oblicza resztę z dzielenia `a` przez `b` i przypisuje ją do `r`.
+3. Następnie zamienia wartości `a` i `b` (wartość `b` zostaje zastąpiona resztą `r`).
+4. Kiedy `b` stanie się zerem, wartość `a` jest największym wspólnym dzielnikiem.
 
 ## Przykład użycia
-Po uruchomieniu skryptu użytkownik zostanie poproszony o podanie dwóch liczb:
+Po uruchomieniu skryptu użytkownik może obliczyć NWD dwóch liczb:
 ```
-podaj liczbę a: 56
-podaj liczbę b: 98
-```
-Wynik działania skryptu:
-```
-14
+euclideanNWD(56, 98)  # 14
 ```
 
 ## Kod
+
+### Python
 ```python
 def euclideanNWD(a, b):
-    while b != 0:
-        r = a % b
-        a, b = b, r
-    return a
-
-a = int(input("podaj liczbę a: "))
-b = int(input("podaj liczbę b: "))
-print(euclideanNWD(a, b))
+    while b != 0:  # Dopóki b nie jest zerem
+        r = a % b  # Obliczamy resztę z dzielenia
+        a, b = b, r  # Zamiana a i b
+    return a  # Zwrócenie największego wspólnego dzielnika
 ```
 
-## Uwagi
-- Algorytm Euklidesa jest bardziej wydajny niż metoda oparta na odejmowaniu.
-- Skrypt działa poprawnie dla dodatnich liczb całkowitych.
-- Wartości `a` i `b` mogą być dowolne, ale obliczenia są przeprowadzane dla wartości bezwzględnych.
+### Ruby
+```ruby
+def euclideanNWD(a, b)
+  while b != 0  # Dopóki b nie jest zerem
+    r = a % b  # Obliczamy resztę z dzielenia
+    a, b = b, r  # Zamiana a i b
+  end
+  return a  # Zwrócenie największego wspólnego dzielnika
+end
+```
+
+
+## Jak uruchomić?
+1. Uruchom plik Python.
+2. Wprowadź liczbę całkowitą w odpowiedzi na pytanie.
+2. Otrzymasz wynik w konsoli.

@@ -74,3 +74,8 @@ print swap(a, b)  # Drukuje zamienione wartości z etykietami
 5. **Komunikaty przed pobieraniem danych wejściowych:**
    - W Pythonie komunikaty dla użytkownika są podawane w funkcji `input()`.
    - W Ruby komunikaty są wypisywane przed wywołaniem `gets.chomp`, za pomocą funkcji `print`.
+
+## Jak uruchomić?
+1. Uruchom plik Python.
+2. Wprowadź liczbę całkowitą w odpowiedzi na pytanie.
+2. Otrzymasz wynik w konsoli.

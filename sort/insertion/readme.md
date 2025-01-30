@@ -69,18 +69,11 @@ end
 2. **Indeksowanie tablicy:**
    - W obu językach indeksowanie tablicy działa w podobny sposób, np. `arr[i]` w Pythonie i Ruby.
 
-3. **Wstawianie elementu:**
-   - W Pythonie wstawianie elementu do posortowanej części tablicy odbywa się poprzez przypisanie `arr[j + 1] = key`.
-   - W Ruby działa to w ten sam sposób, ale z różnicą w składni, gdzie nie ma nawiasów w przypisaniu.
-
-4. **Pętla `while`:**
-   - W Pythonie warunek w pętli `while` jest zapisany jako `while j >= 0 and arr[j] > key`.
-   - W Ruby zapis jest identyczny, ale używamy słowa kluczowego `and` zamiast `&&`, co jest bardziej idiomatyczne w Ruby.
-
-5. **Zwracanie wartości:**
-   - W Pythonie `insertSort` zwraca posortowaną tablicę `arr`.
-   - W Ruby, podobnie jak w Pythonie, funkcja `insertSort` zwraca posortowaną tablicę, a `return` jest używane w tej samej formie.
-
-6. **Brak nawiasów przy metodach:**
+3. **Brak nawiasów przy metodach:**
    - W Pythonie musimy używać nawiasów przy metodach, np. `len(arr)`.
    - W Ruby metody takie jak `arr.length` są używane bez nawiasów, co jest jednym z różnic w składni obu języków.
+  
+## Jak uruchomić?
+1. Uruchom plik Python.
+2. Wprowadź liczbę całkowitą w odpowiedzi na pytanie.
+2. Otrzymasz wynik w konsoli.

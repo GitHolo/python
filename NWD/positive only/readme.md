@@ -24,28 +24,50 @@ Wynik działania skryptu:
 ```
 
 ## Kod
-```python
-def nwd(a,b):
-    # sprawdź czy obydwie liczby są dodatnie
-    if a>0 and b>0:
-        # podczas gdy (a) nie jest równe (b)
-        while a != b:
-            # jeśli (a) jest większe od (b), odejmij (b) od (a)
-            if a > b:
-                a -= b
-            # inaczej, odejmij (a) od (b)
-            else:
-                b -= a
-        # zwróć wartość
-        return a
-    # jeśli liczby nie są dodatnie, zwróć błąd
-    else:
-        return "błąd"
-# zdobądź i zwróć dane
-a = int(input("podaj liczbę a: "))
-b = int(input("podaj liczbę b: "))
-print(str(nwd(a,b)))
-```
+
 
 ## Uwagi
 - Algorytm ten działa poprawnie dla dodatnich liczb całkowitych.
+
+
+### Python
+```python
+def nwd(a, b):
+    if a > 0 and b > 0:  # Sprawdzanie, czy liczby są większe od zera
+        while a != b:  # Dopóki liczby są różne
+            if a > b:
+                a -= b  # Odejmowanie mniejszej liczby od większej
+            else:
+                b -= a  # Odejmowanie mniejszej liczby od większej
+        return a  # Zwrócenie największego wspólnego dzielnika
+    else:
+        return "błąd"  # Zwrócenie komunikatu o błędzie, jeśli liczby są <= 0
+```
+
+### Ruby
+```ruby
+def nwd(a, b)
+  if a > 0 && b > 0  # Sprawdzanie, czy liczby są większe od zera
+    while a != b  # Dopóki liczby są różne
+      if a > b
+        a -= b  # Odejmowanie mniejszej liczby od większej
+      else
+        b -= a  # Odejmowanie mniejszej liczby od większej
+      end
+    end
+    return a  # Zwrócenie największego wspólnego dzielnika
+  else 
+    return "błąd"  # Zwrócenie komunikatu o błędzie, jeśli liczby są <= 0
+  end
+end
+```
+
+## Różnice między Pythonem a Ruby:
+1. **Składnia operacji warunkowych:**
+   - W Pythonie używamy `if a > 0 and b > 0`, aby sprawdzić, czy obie liczby są większe od zera.
+   - W Ruby używamy `if a > 0 && b > 0` z podwójnym `&` do logicznego sprawdzenia warunku.
+
+## Jak uruchomić?
+1. Uruchom plik Python.
+2. Wprowadź liczbę całkowitą w odpowiedzi na pytanie.
+2. Otrzymasz wynik w konsoli.

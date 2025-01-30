@@ -76,26 +76,11 @@ end
    - W Pythonie iteracja po tablicy `arr` odbywa się za pomocą pętli `for num in arr`.
    - W Ruby używa się metody `each`, czyli `arr.each do |num|`.
 
-3. **Obliczanie indeksu kubełka:**
-   - W Pythonie obliczamy indeks kubełka za pomocą: `bi = int(n * num)`, gdzie `num` jest elementem tablicy.
-   - W Ruby robimy to w identyczny sposób: `bi = n * num`, ale Ruby automatycznie konwertuje wartości zmiennoprzecinkowe, co może prowadzić do nieco innych zachowań w przypadku dużych liczb.
-
-4. **Dodawanie elementów do kubełków:**
+3. **Dodawanie elementów do kubełków:**
    - W Pythonie używamy metody `append()` do dodawania elementów do kubełka, np. `buckets[bi].append(num)`.
    - W Ruby używamy operatora `<<`, np. `buckets[bi] << num`.
 
-5. **Sortowanie kubełków:**
-   - W Pythonie każdemu kubełkowi przypisujemy funkcję `insertSort(bucket)` w celu posortowania.
-   - W Ruby robimy to w ten sam sposób, wywołując `insertSort(bucket)` na każdym kubełku.
-
-6. **Łączenie elementów z kubełków:**
-   - W Pythonie łączymy posortowane elementy z kubełków z powrotem do tablicy, używając `arr[index] = num`.
-   - W Ruby łączymy je w identyczny sposób, również używając `arr[index] = num`.
-
-7. **Różnice w składni:**
-   - Python używa nawiasów kwadratowych do indeksowania list, np. `arr[i]`.
-   - Ruby używa tego samego zapisu, ale składnia Ruby jest bardziej zwarta i pozwala na używanie metod bez nawiasów w wielu przypadkach.
-
-8. **Typy zmiennych:**
-   - W Pythonie zmienne są typowane dynamicznie, ale muszą być odpowiednio przekształcone (np. `int(n * num)`).
-   - W Ruby również zmienne są dynamicznie typowane, ale automatyczne konwersje są nieco bardziej elastyczne.
+## Jak uruchomić?
+1. Uruchom plik Python.
+2. Wprowadź liczbę całkowitą w odpowiedzi na pytanie.
+2. Otrzymasz wynik w konsoli.

@@ -86,19 +86,15 @@ end
    - W Pythonie wartość domyślna dla `high` jest ustawiana na `None` i obliczana wewnątrz funkcji jako `len(arr)-1`.
    - W Ruby wartość domyślna dla `high` jest ustawiana na `nil` i obliczana podobnie, ale bezpośrednio w kodzie.
 
-2. **Wybór elementu pivot:**
-   - W obu językach pivot jest wybierany jako ostatni element tablicy (`arr[high]`), ale w Ruby używa się operatora `arr[high]`, podczas gdy w Pythonie `arr[high]` jest przypisane do zmiennej.
-
-3. **Pętla `for` i `each`:**
+2. **Pętla `for` i `each`:**
    - W Pythonie do iteracji po elementach tablicy używamy pętli `for`, która iteruje po indeksach.
    - W Ruby używamy metody `each` do iteracji po zakresie `(low..high-1)`.
 
-4. **Indeksowanie tablicy:**
+3. **Indeksowanie tablicy:**
    - W Pythonie indeksy są używane bezpośrednio, np. `arr[i]`, `arr[j]`.
    - W Ruby indeksowanie tablicy również działa w podobny sposób, ale wykorzystuje metodę `each` oraz zakresy.
 
-5. **Rekurencyjne wywołanie funkcji:**
-   - W obu językach wywołania rekurencyjne są bardzo podobne. W Pythonie używamy `quickSort(arr, low, pivot-1)` i `quickSort(arr, pivot, high)`, a w Ruby `quickSort(arr, low, pivot - 1)` i `quickSort(arr, pivot + 1, high)`.
-
-6. **Zwracanie wartości:**
-   - Zarówno w Pythonie, jak i w Ruby funkcja `partition` zwraca indeks pivota, a funkcja `quickSort` zwraca posortowaną tablicę.
+## Jak uruchomić?
+1. Uruchom plik Python.
+2. Wprowadź liczbę całkowitą w odpowiedzi na pytanie.
+2. Otrzymasz wynik w konsoli.
