@@ -52,6 +52,6 @@ arr = []
     
 print(arrFill(arr))
 bucketSort(arr)
-print("posortowana tablica:")
-print(" ".join(map(str, arr)))
+print("posortowana tablica: "+str(arr))
+
 
