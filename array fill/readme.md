@@ -16,7 +16,7 @@ arrFill(arr)  # Użytkownik wprowadza liczby, które są dodawane do tablicy `ar
 ## Kod
 
 
-### Python
+### [Python](./script.py)
 ```python
 def arrFill(arr: list):
     # Pobieramy liczbę 'n', która określa ile liczb ma zostać wprowadzonych do tabeli.

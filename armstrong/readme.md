@@ -16,7 +16,7 @@ armstrong(123)  # Zwraca False
 
 ## Kod
 
-### Python(./script.py)
+### [Python](./script.py)
 ```python
 def armstrong(num: int):
     # Inicjalizacja zmiennej 'factor', która będzie odpowiadać za potęgę, do której podnosimy cyfry.
