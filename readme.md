@@ -39,4 +39,12 @@ Projekt stworzony przez Maksymiliana Felczaka, który odpowiada za implementacj�
 
 ## Źródła
 
-- [http://learnxinyminutes.com/](http://learnxinyminutes.com/)
+- Skorzystano z materiałów na [learnxinyminutes.com](https://learnxinyminutes.com/) do nauki składni i przykładów kodu w innych językach programowania.
+  - [Python](https://learnxinyminutes.com/docs/python)
+  - [Ruby](https://learnxinyminutes.com/docs/ruby)
+- Wzory matematyczne oraz ogólne informacje zaczerpnięte z ogólnodostępnych źródeł online, w tym [Wikipedia](https://www.wikipedia.org), [W3Schools](https://www.w3schools.com) oraz [geeksforgeeks.org](https://www.geeksforgeeks.org/sorting-algorithms/):
+  - [Algorytm Euklidesa](https://en.wikipedia.org/wiki/Euclidean_algorithm)
+  - [QuickSort](https://www.w3schools.com/dsa/dsa_algo_quicksort.php)
+- [StackOverflow](https://stackoverflow.com) w celu rozwiązania specyficznych problemów w kodzie.
+
+
