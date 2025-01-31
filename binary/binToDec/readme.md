@@ -19,36 +19,45 @@ binToDec(0)     # Wynik: 0
 ### [Python](./script.py)
 ```python
 def binToDec(bin: float):
+    # Sprawdzamy, czy podana liczba jest liczbą binarną
     if isBinary(bin):
-        bin = float(bin)
-        result = 0
-        n = 0
+        bin = float(bin)  # Konwertujemy liczbę do typu float, aby móc ją przetwarzać
+        result = 0  # Zmienna do przechowywania wyniku konwersji
+        n = 0  # Zmienna do śledzenia pozycji bitu (od prawej do lewej)
+
+        # Pętla do przetwarzania każdej cyfry liczby binarnej
         while bin != 0:
+            # Sprawdzamy, czy bit na danej pozycji jest 1
             if bin % 10 != 0:
-                result += 2**n
-            bin //= 10
-            n += 1
-        return result
+                result += 2**n  # Dodajemy odpowiednią potęgę liczby 2 do wyniku
+            bin //= 10  # Przesuwamy liczbę o jeden bit w prawo (usuwamy ostatnią cyfrę)
+            n += 1  # Zwiększamy numer pozycji bitu
+
+        return result  # Zwracamy wynik konwersji
 ```
+
 
 ### [Ruby](./script.rb)
 ```ruby
 def binToDec(bin)
+  # Sprawdzamy, czy podana liczba jest liczbą binarną
   return "błąd" unless isBinary(bin)
 
-  bin = bin.to_i
-  result = 0
-  n = 0
+  bin = bin.to_i  # Konwertujemy liczbę na typ całkowity
+  result = 0  # Zmienna do przechowywania wyniku konwersji
+  n = 0  # Zmienna do śledzenia pozycji bitu (od prawej do lewej)
 
+  # Pętla do przetwarzania każdej cyfry liczby binarnej
   while bin != 0
+    # Sprawdzamy, czy bit na danej pozycji jest 1
     if bin % 10 != 0
-      result += 2**n
+      result += 2**n  # Dodajemy odpowiednią potęgę liczby 2 do wyniku
     end
-    bin /= 10
-    n += 1
+    bin /= 10  # Przesuwamy liczbę o jeden bit w prawo (usuwamy ostatnią cyfrę)
+    n += 1  # Zwiększamy numer pozycji bitu
   end
 
-  return result
+  return result  # Zwracamy wynik konwersji
 end
 ```
 
